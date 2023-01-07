@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li a:hover {
+  color: #ccc;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section#about {
+  width: 60%;
+}
+
+section#portfolio {
+  width: 40%;
+}
+
+.portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+section#contact form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section#contact form label,
+section#contact form input,
+section#contact form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+section#contact form textarea {
+  resize: none;
+}
+
+section#contact form button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+section#contact form button:hover {
+  background-color: #ccc
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+  section#about {
+    width: 100%;
+  }
+  section#portfolio {
+    width: 100%;
+  }
+}
