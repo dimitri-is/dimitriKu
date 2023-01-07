@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Situs Dimitriku</title>
-  </head>
-  <body>
-    <h1>Mohon Bersabar Masih Pengembangan</h1>
-    <p>Mohon permaklumannya, ya teman! _<
-  </body>
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia, lorem ac scelerisque malesuada, ipsum arcu auctor velit, quis posuere est ligula at elit. In hac habitasse platea dictumst. Duis auctor, quam a luctus iaculis, quam ligula ornare mauris, at vehicula metus nisi ac turpis. Proin eleifend nisl nisl, non tempus tellus porta et. Donec efficitur felis id lectus malesuada, et pretium turpis dignissim. In eu placerat tellus, eu condimentum mauris. Ut venenatis velit vel velit ultricies, vel elementum dui faucibus. Nam tincidunt mauris a elit imperdiet elementum. Sed ut efficitur purus. Praesent sed ipsum enim. In rutrum, massa at tincidunt malesuada, orci nisl interdum turpis, at elementum lacus nisi ac mauris. Suspendisse potenti.</p>
+    </section>
+    <section id="portfolio">
+      <h1>My Portfolio</h1>
+      <div class="portfolio-item">
+        <img src="project1.jpg" alt="Project 1">
+        <h2>Project 1</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia, lorem ac scelerisque malesuada, ipsum arcu auctor velit, quis posuere est ligula at elit.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project2.jpg" alt="Project 2">
+        <h2>Project 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia, lorem ac scelerisque malesuada, ipsum arcu auctor velit, quis posuere est ligula at elit.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="project3.jpg" alt="Project 3">
+              <h2>Project 3</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lacinia, lorem ac scelerisque malesuada, ipsum arcu auctor velit, quis posuere est ligula at elit.</p>
+    </div>
+  </section>
+  <section id="contact">
+    <h1>Contact Me</h1>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br>
+      <button type="submit">Send</button>
+    </form> 
+  </section>
+</main>
+<footer>
+  <p>Copyright &copy; 2023 My Portfolio</p>
+</footer>
+</body>
 </html>
+
